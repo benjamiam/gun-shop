@@ -16,27 +16,27 @@ p {
   position: right;
 }
 
-.navbar-vertical-left {
+.navbar.fixed-left {
   position: fixed;
 }
 
-li {
+/* li {
   list-style-type: none;
   font-size: 12px;
-}
+} */
 
-ul {
+/* ul {
   list-style-type: none;
   padding: 0;
   text-align: center;
   font-size: 12px;
   -webkit-padding-start: 0;
-}
+} */
 
-.col-sm-2 {
+.navbar {
   background-color: gray;
 }
 
-.col-6 {
+.tron {
   background-color: cyan;
 }
