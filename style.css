@@ -1,5 +1,3 @@
-<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 title {
   color: black;
@@ -15,10 +13,30 @@ h2 {
 
 p {
   color: gray;
+  position: right;
+}
+
+.navbar-vertical-left {
+  position: fixed;
+}
+
+li {
+  list-style-type: none;
+  font-size: 12px;
 }
 
 ul {
   list-style-type: none;
-  pasdding: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
   -webkit-padding-start: 0;
+}
+
+.col-sm-2 {
+  background-color: gray;
+}
+
+.col-6 {
+  background-color: cyan;
 }
