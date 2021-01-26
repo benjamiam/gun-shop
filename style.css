@@ -15,10 +15,10 @@ p {
   color: gray;
   position: right;
 }
-
-.navbar.fixed-left {
+/*
+.navbar.position-absolute {
   position: fixed;
-}
+} */
 
 /* li {
   list-style-type: none;
