@@ -20,11 +20,14 @@ p {
   position: fixed;
 } */
 
-/* li {
+li {
   list-style-type: none;
   font-size: 12px;
-} */
+}
 
+a:link {
+  color: white;
+}
 /* ul {
   list-style-type: none;
   padding: 0;
