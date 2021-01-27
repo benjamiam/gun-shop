@@ -33,10 +33,10 @@ p {
   -webkit-padding-start: 0;
 } */
 
-.navbar {
+#menu {
   background-color: gray;
 }
 
-.tron {
+#gun {
   background-color: cyan;
 }
