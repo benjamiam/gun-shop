@@ -1,8 +1,4 @@
 
-title {
-  color: black;
-}
-
 h1 {
   color: blue;
 }
@@ -14,6 +10,16 @@ h2 {
 p {
   color: gray;
   position: right;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
 }
 /*
 .navbar.position-absolute {
@@ -35,11 +41,3 @@ a:link {
   font-size: 12px;
   -webkit-padding-start: 0;
 } */
-
-#menu {
-  background-color: blue;
-}
-
-#gun {
-  background-color: cyan;
-}
