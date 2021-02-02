@@ -16,6 +16,7 @@ p {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* horizontal scrolling 'bounce' with iOS' */
 
   .card {
     flex: 0 0 auto;
