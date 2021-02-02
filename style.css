@@ -12,22 +12,29 @@ p {
   position: right;
 }
 
+.jumbotron {
+  background-color: gray;
+}
+
 .scrolling-wrapper-flexbox {
-  display: flex;
+  display:inline-flex;
   flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch; /* horizontal scrolling 'bounce' with iOS' */
 
   .card {
     flex: 0 0 auto;
+    flex-wrap: wrap;
   }
 }
 
 img {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 800px;
+  max-height: 800px;
   width: auto;
   object-fit: contain;
+  padding: 20px;
+  background-color: blue;
 }
 /*
 .navbar.position-absolute {
