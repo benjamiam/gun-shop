@@ -21,6 +21,13 @@ p {
     flex: 0 0 auto;
   }
 }
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  object-fit: contain;
+}
 /*
 .navbar.position-absolute {
   position: fixed;
