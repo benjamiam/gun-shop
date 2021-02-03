@@ -109,7 +109,21 @@ img {
   width: auto;
   object-fit: contain;
   padding: 20px;
+  opacity: 0.5;
+  /* -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(1,0,1,0)), linear-gradient(to right, rgba(1,0,0,0), rgba(1,0,0,1));
+-webkit-mask-size: 20% 100%;
+-webkit-mask-repeat: no-repeat;
+-webkit-mask-position: right top, left bottom; */
+-webkit-mask-image: linear-gradient(to left, transparent 25%, black 75%);
+mask-image: linear-gradient(to left, transparent 25%, black 75%);
 }
+
+img:hover {
+  opacity: 1.0;
+  -webkit-mask-image: linear-gradient(to left, transparent 0%, black 0%);
+  mask-image: linear-gradient(to left, transparent 0%, black 0%);
+}
+
 /*
 .navbar.position-absolute {
   position: fixed;
@@ -130,7 +144,7 @@ ul {
 
 
 .col-xs-4:nth-child(2n+1) {
-            background: green;
+            background: white;
 }
 
 .col-xs-4:nth-child(2n+2) {
