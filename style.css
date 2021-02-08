@@ -111,22 +111,13 @@ img {
 -webkit-mask-repeat: no-repeat;
 -webkit-mask-position: right top, left bottom; */
 
-/* Below is a second attempt at gradient opacity over current image */
+/* Below is a second attempt at gradient opacity over current image iOS */
 
 -webkit-mask-image: linear-gradient(to left, transparent 0%, black 0%); /* nothing, 10, 75 was the original */
 mask-image: linear-gradient(to left, transparent 10%, black 75%);
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-.example::-webkit-scrollbar {
-  display: none;
-}
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.example {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
 
 
 /* Removes gradient on mouseover  */
