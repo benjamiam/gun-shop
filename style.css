@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: gray;
+  background-color: #009900;
 }
 
 .horizontal-scrollable > .row {
@@ -34,8 +34,10 @@ a:link {
 }
 
 
+
 .navbar {
   background-color: gray;
+  margin: auto;
 }
 
 .navbar.fixed-left {
@@ -101,30 +103,45 @@ img {
   width: auto;
   object-fit: contain;
   padding: 20px;
-  opacity: 0.1;
-  /* -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(1,0,1,0)), linear-gradient(to right, rgba(1,0,0,0), rgba(1,0,0,1));
+  opacity: 1; /* Entire image  */
+
+  /*
+  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(1,0,1,0)), linear-gradient(to right, rgba(1,0,0,0), rgba(1,0,0,1));
 -webkit-mask-size: 20% 100%;
 -webkit-mask-repeat: no-repeat;
 -webkit-mask-position: right top, left bottom; */
 
 /* Below is a second attempt at gradient opacity over current image */
 
--webkit-mask-image: linear-gradient(to left, transparent 10%, black 75%);
+-webkit-mask-image: linear-gradient(to left, transparent 0%, black 0%); /* nothing, 10, 75 was the original */
 mask-image: linear-gradient(to left, transparent 10%, black 75%);
 }
 
-img:hover {
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+/* Removes gradient on mouseover  */
+/* img:hover {
   opacity: 1.0;
   -webkit-mask-image: linear-gradient(to left, transparent 0%, black 0%);
   mask-image: linear-gradient(to left, transparent 0%, black 0%);
-}
+} */
 
 a {
   color: white;
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* does't work for Safari 13 and < */
 }
 
 /*
@@ -153,3 +170,9 @@ ul {
 .col-xs-4:nth-child(2n+2) {
             background: white;
 }
+
+/* BEGIN image overlay description  */
+
+
+
+/* END image overlay description  */
