@@ -1,5 +1,7 @@
 .jumbotron {
   background-color: #009900;
+  height: 650px;
+  overflow-y: scroll;
 }
 
 .horizontal-scrollable > .row {
@@ -30,7 +32,7 @@
 } */
 
 a:link {
-  color: white;
+  color: black;
 }
 
 
@@ -124,10 +126,6 @@ mask-image: linear-gradient(to left, transparent 10%, black 75%);
   -webkit-mask-image: linear-gradient(to left, transparent 0%, black 0%);
   mask-image: linear-gradient(to left, transparent 0%, black 0%);
 } */
-
-a {
-  color: white;
-}
 
 html {
   scroll-behavior: smooth; /* does't work for Safari 13 and < */
