@@ -1,7 +1,7 @@
 .jumbotron {
   background-color: #009900;
   overflow-y: scroll;
-  /* position: relative; */
+  position: relative;
   height: 650px;
 }
 
@@ -14,6 +14,9 @@
   }
 }
 
+#container {
+  overflow: hidden; /* dunno */
+}
 .horizontal-scrollable > .row > .col-xs-4 {
   display: inline-block;
   float: none;
