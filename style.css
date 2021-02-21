@@ -1,12 +1,14 @@
-.jumbotron {
-  background-color: #339960;
+.content {
+  position: relative;
+  overflow-y: scroll;
   height: 650px;
 }
 
-#scrollspy {
-  overflow-y: scroll;
-  position: relative;
+.jumbotron {
+  background-color: #339960;
 }
+
+
 
 .horizontal-scrollable > .row {
   overflow-x: auto;
