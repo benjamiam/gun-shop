@@ -1,8 +1,11 @@
 .jumbotron {
-  background-color: #009900;
+  background-color: #339960;
+  height: 650px;
+}
+
+#scrollspy {
   overflow-y: scroll;
   position: relative;
-  height: 650px;
 }
 
 .horizontal-scrollable > .row {
@@ -42,7 +45,7 @@ a:link {
 
 
 .navbar {
-  background-color: gray;
+  background-color: #333164;
   margin: auto;
 }
 
