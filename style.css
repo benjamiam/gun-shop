@@ -10,7 +10,9 @@
   padding-left: 80px;
 }
 
-
+#v {
+  color: #d3d3d3;
+}
 
 .horizontal-scrollable > .row {
   overflow-x: auto;
@@ -21,10 +23,11 @@
   }
 }
 
+/*
 .container {
   overflow: hidden; /* dunno */
 
-}
+
 .horizontal-scrollable > .row > .col-xs-4 {
   display: inline-block;
   float: none;
@@ -174,7 +177,7 @@ ul {
 .hover {
   overflow: hidden;
   position: relative;
-  padding-bottom: 60%;
+  padding-bottom: 70%;
 }
 
 .hover-overlay {
@@ -204,7 +207,7 @@ ul {
   width: 105%;
   position: absolute;
   top: 0;
-  left: -5%;
+  left: -3%;
   transition: all 0.3s;
 }
 
