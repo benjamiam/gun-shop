@@ -1,11 +1,13 @@
-.content {
+#content {
   position: relative;
-  overflow-y: scroll;
   height: 650px;
+  overflow-y: scroll;
+
 }
 
 .jumbotron {
   background-color: #339960;
+  padding-left: 80px;
 }
 
 
@@ -19,8 +21,9 @@
   }
 }
 
-#container {
+.container {
   overflow: hidden; /* dunno */
+
 }
 .horizontal-scrollable > .row > .col-xs-4 {
   display: inline-block;
@@ -46,7 +49,7 @@ a:link {
 
 
 
-.navbar {
+.navbar .nav-link.active {
   background-color: #333164;
   margin: auto;
 }
@@ -136,9 +139,9 @@ mask-image: linear-gradient(to left, transparent 10%, black 75%);
   mask-image: linear-gradient(to left, transparent 0%, black 0%);
 } */
 
+/*
 html {
-  scroll-behavior: smooth; /* does't work for Safari 13 and < */
-}
+  scroll-behavior: smooth; /* does't work for Safari 13 and < plus a few years ago broke scrollspy */
 
 /*
 .navbar.position-absolute {
