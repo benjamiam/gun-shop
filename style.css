@@ -6,10 +6,16 @@
 }
 
 .jumbotron {
-  background-color: #339960;
+  background-color: green;
   padding-left: 80px;
   margin-left: 120px;
 }
+
+body {
+  background-color: blue;
+}
+
+/* Version */
 
 #v {
   color: #d3d3d3;
@@ -34,12 +40,14 @@
   float: none;
 }
 
+/* not necessary
+
 .card {
   border: 2px solid $red;
   width: 250px;
   height: 175px;
-  /* background: black; */
-}
+ background-color: black;
+} */
 
 /* p {
   color: white;
@@ -48,13 +56,11 @@
 } */
 
 a:link {
-  color: black;
+  color: blue;
 }
 
-
-
 .navbar .nav-link.active {
-  background-color: #333164;
+  background-color: blue;
   margin: auto;
 }
 
@@ -112,6 +118,36 @@ a:link {
     }
 }
 
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+.jumbotron {
+  background-color: green;
+}
+  }
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
 
 
 
@@ -175,6 +211,7 @@ ul {
 }
 
 /* BEGIN image overlay description  */
+
 .hover {
   overflow: hidden;
   position: relative;
@@ -228,6 +265,7 @@ ul {
   transform: translateY(0.5rem);
   transition: all 0.4s;
   opacity: 0;
+  text-align: left;
 }
 
 .hover-1:hover .hover-1-content {
