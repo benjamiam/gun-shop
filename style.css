@@ -59,9 +59,10 @@ a:link {
   color: blue;
 }
 
-.navbar .nav-link.active {
+.navbar-light .navbar .nav-link.active {
   background-color: blue;
   margin: auto;
+  color: red;
 }
 
 .navbar.fixed-left {
@@ -265,6 +266,10 @@ ul {
   transform: translateY(0.5rem);
   transition: all 0.4s;
   opacity: 0;
+  text-align: left;
+}
+
+.description {
   text-align: left;
 }
 
