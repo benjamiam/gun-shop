@@ -2,11 +2,12 @@
   position: relative;
   height: 650px;
   overflow-y: scroll;
+  background-color: cyan;
 
 }
 
 .jumbotron {
-  background-color: green;
+  background-color: red;
   padding-left: 80px;
   margin-left: 120px;
 }
@@ -62,7 +63,7 @@ a:link {
 .navbar-light .navbar .nav-link.active {
   background-color: blue;
   margin: auto;
-  color: red;
+  color: yellow;
 }
 
 .navbar.fixed-left {
@@ -76,9 +77,9 @@ a:link {
 @media (min-width: 768px) {
     .navbar.fixed-left {
         bottom: 0;
-        width: 232px;
+        width: 332px;
         flex-flow: column nowrap;
-        align-items:flex-start
+        align-items:right;
     }
 
     .navbar.fixed-left .navbar-collapse {
@@ -128,18 +129,20 @@ a:link {
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
-}
 
+}
 /* Portrait */
 @media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
-.jumbotron {
-  background-color: green;
+    #viewport {
+      background-color: green;
+    }
+
+
 }
-  }
 
 /* Landscape */
 @media only screen
