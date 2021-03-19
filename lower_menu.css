@@ -35,6 +35,11 @@
   transition: all 0.3s;
 }
 
+.hover-1-title-lm {
+  font-size: 1rem;
+  color: black
+}
+
 .hover-1-content-lm {
   position: absolute;
   bottom: 60; <~-- change location of text -->
