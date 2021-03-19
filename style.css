@@ -28,6 +28,22 @@ body {
   color: #d3d3d3;
 }
 
+/* for main picture description  BEING */
+
+.img-gradient-overlay-disc { /* FF3.6+ */ /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+  background: -o-linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+  background: linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  border-radius: .3rem;
+  margin-left: 15px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+
+}
+
+/* for main picture description END  */
+
 
 /* BEGIN image overlay description  WORKS */
 
@@ -83,7 +99,7 @@ body {
 .hover-1-description {
   transform: translateY(0.5rem);
   transition: all 0.4s;
-  opacity: 0;
+  opacity: 1; <!-- description text -->
   text-align: left;
 }
 
@@ -101,7 +117,7 @@ body {
 }
 
 .hover-1:hover img {
-  left: 0;
+  /* left: 0; */
 }
 
 .hover-1:hover .hover-overlay {
@@ -365,7 +381,7 @@ ul {
 /* END image overlay description  */
 
 
-/* BEGIN lower menu overlay */
+/* BEGIN lower menu overlay 
 .content {
     position: relative;
     width: 90%;
@@ -441,4 +457,4 @@ ul {
 .fadeIn-bottom {
     top: 80%
 }
-/* END lower menu overlay */
+ */

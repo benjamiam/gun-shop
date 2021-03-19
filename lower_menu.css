@@ -5,6 +5,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
   border-radius: .3rem;
   margin-left: 15px;
+  margin-right: 16px;
 
 }
 
@@ -89,8 +90,8 @@
 
 .hover-1-lm:hover img {
   /* left: 0; */ <!-- how far the image moves on hover -->
-  filter: grayscale(100%) blur(2px);
-  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(100%) blur(4px);
+  -webkit-filter: grayscale(100%) blur(4px);
 
 }
 
