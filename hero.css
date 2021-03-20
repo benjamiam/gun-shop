@@ -1,0 +1,50 @@
+html, body  {
+
+background-color: black;
+padding: 2rem 0rem;
+
+}
+
+.body-div {
+  background-color: black;
+}
+
+h5 {
+color: black;
+}
+
+.container {
+  background-color: #24242d;
+
+}
+
+.card {
+  width: 250px;
+  margin: 16px;
+
+}
+
+.card-body {
+  background-color: #24242d;
+  color: #b7b8e5;
+}
+
+.card-link {
+  color: #ec6f3e;
+}
+
+#carousel {
+  width: 800px;
+}
+
+.img-gradient-carousel { /* FF3.6+ */ /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+  background: -o-linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+  background: linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  border-radius: .3rem;
+  margin-left: 15px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+
+}
