@@ -90,8 +90,8 @@
 
 .hover-1-lm:hover img {
   /* left: 0; */ <!-- how far the image moves on hover -->
-  filter: grayscale(100%) blur(4px);
-  -webkit-filter: grayscale(100%) blur(4px);
+  filter: grayscale(100%) blur(2px);
+  -webkit-filter: grayscale(100%) blur(2px);
 
 }
 

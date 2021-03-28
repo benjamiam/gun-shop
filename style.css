@@ -6,7 +6,7 @@
   position: relative;
   height: 650px;
   overflow-y: scroll;
-  background-color: cyan;
+  /* background-color: cyan; */
 
 }
 
@@ -30,7 +30,8 @@ body {
 
 
 
-/* for main picture description  BEING */
+
+/* for main picture description BEGIN */
 
 .img-gradient-overlay-disc { /* FF3.6+ */ /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
@@ -40,18 +41,28 @@ body {
   border-radius: .3rem;
   margin-left: 0px;
   margin-right: 316px;
-  margin-bottom: 50px;
+  margin-bottom: 80px; <!-- control location of gradient -->
 }
 
 /* for main picture description END  */
 
+.img-gradient-overlay-sold { /* FF3.6+ */ /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(rgba(255,0,0,1) 0%, rgba(255,0,0,1) 100%);
+  background: -o-linear-gradient(rgba(255,0,0,1) 0%, rgba(255,0,0,1) 100%);
+  background: linear-gradient(rgba(255,0,0,1) 0%, rgba(255,0,0,1) 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  border-radius: .3rem;
+  margin-left: -15px;
+  margin-right: 316px;
+  margin-bottom: 280px; <!-- control location of gradient -->
+}
 
 /* BEGIN image overlay description  WORKS */
 
 .hover {
   overflow: hidden;
-  position: relative;
-  padding-bottom: 70%;
+  /* position: relative; */
+  padding-bottom: 100%;
 }
 
 .hover-overlay {
@@ -215,8 +226,8 @@ body {
 }
 
 .dropdown-item.active {
-  background-color: orange !important;
-  color: purple !important;
+  background-color: #8E8461 !important;
+  color: white !important;
 
 }
 

@@ -18,10 +18,18 @@ color: black;
 
 }
 
+li {
+  list-style-type: none;
+}
+
 .card {
-  width: 250px;
+  width: 300px;
   margin: 16px;
 
+}
+
+.card-text {
+  font-size: .8rem;
 }
 
 .card-body {
